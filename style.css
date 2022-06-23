@@ -1,0 +1,53 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 500px;
+    border: 1px solid white;
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header .header-brand{
+    display: flex;
+    align-items: center;
+}
+.header .header-brand div:nth-child(2) p{
+    padding: 0;
+    margin: 0 10px;
+}
+.header .header-menu{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.header .header-brand div:nth-child(1) {
+    font-size: 2rem;
+}
+img{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bookmark{
+    font-size: 2rem;
+}
+.footer .icons div:nth-child(1) {
+    font-size: 2rem;
+}
+p{
+    padding: 5px 10px;
+}
